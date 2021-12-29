@@ -1,0 +1,14 @@
+
+State Machine - |data_handler|current_state
+Name current_state.S_DATA6 current_state.S_DATA5 current_state.S_DATA4 current_state.S_DATA3 current_state.S_DATA2 current_state.S_DATA1 current_state.S_DATA0 current_state.S_LENGTH current_state.S_ADDRESS current_state.S_COMM current_state.S_IDLE 
+current_state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 
+current_state.S_COMM 0 0 0 0 0 0 0 0 0 1 1 
+current_state.S_ADDRESS 0 0 0 0 0 0 0 0 1 0 1 
+current_state.S_LENGTH 0 0 0 0 0 0 0 1 0 0 1 
+current_state.S_DATA0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.S_DATA1 0 0 0 0 0 1 0 0 0 0 1 
+current_state.S_DATA2 0 0 0 0 1 0 0 0 0 0 1 
+current_state.S_DATA3 0 0 0 1 0 0 0 0 0 0 1 
+current_state.S_DATA4 0 0 1 0 0 0 0 0 0 0 1 
+current_state.S_DATA5 0 1 0 0 0 0 0 0 0 0 1 
+current_state.S_DATA6 1 0 0 0 0 0 0 0 0 0 1 

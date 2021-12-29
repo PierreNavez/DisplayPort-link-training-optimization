@@ -1,0 +1,341 @@
+----------------------------------------------------------------------------------------------------------------------------
+--!  \brief        Data_handler is the entity which receives the decoded data from manchester_decoder and interpret it.
+--!                During the link training some DCPD registers will be written to. Some of them (addresses 100h to 106h)
+--!                are relevant to know how to program the redriver DP141. 
+--!
+--!                Two 32 bit registers are used to save the 7 useful bytes. They can be read by the CPU thanks to the 
+--!                Avalon-MM interface of the module. The module is an Avalon slave with a ROM from the master point of view.
+--!
+--!                The module contains one process that handles the FSM, one that detects the rising edges of the signals coming from
+--!                manchester_decoder, save the data from the decoder into local signals and interpret it, one that handles the Avalon-MM
+--!                interface to perform the read from the CPU. 
+--!
+--!                The module outputs a signal which indicates wether the link training is currently being performed or not. This signal 
+--!                will be useful to the CPU. 
+--!
+--!                The clock is the CPU clock (100MHz) in order to act as fast as possible. 
+----------------------------------------------------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+
+entity data_handler is
+
+port(
+    --
+    --global reset
+    --
+    reset                                                            : in std_logic;
+
+    --
+    --clock
+    --
+    clk_100                                                          : in std_logic;
+
+    --
+    --manchester decoder interface
+    --
+    decod_comm                                                       : in  std_logic_vector(3 downto 0);
+    decod_address                                                    : in  std_logic_vector(19 downto 0);
+    decod_length                                                     : in  std_logic_vector(7 downto 0);
+    decod_data0                                                      : in  std_logic_vector(7 downto 0);
+    decod_data1                                                      : in  std_logic_vector(7 downto 0);
+    decod_data2                                                      : in  std_logic_vector(7 downto 0);
+    decod_data3                                                      : in  std_logic_vector(7 downto 0);
+    decod_data4                                                      : in  std_logic_vector(7 downto 0);
+    decod_data5                                                      : in  std_logic_vector(7 downto 0);
+    decod_data6                                                      : in  std_logic_vector(7 downto 0);
+
+
+    decod_comm_ready                                                 : in  std_logic;
+    decod_address_ready                                              : in  std_logic;
+    decod_length_ready                                               : in  std_logic;
+    decod_data0_ready                                                : in  std_logic;
+    decod_data1_ready                                                : in  std_logic;
+    decod_data2_ready                                                : in  std_logic;
+    decod_data3_ready                                                : in  std_logic;
+    decod_data4_ready                                                : in  std_logic;
+    decod_data5_ready                                                : in  std_logic;
+    decod_data6_ready                                                : in  std_logic;
+
+    --
+    --data_handler_interface
+    --
+    link_training_active                                             : out std_logic;                             --equal to one when the link training has begun, used to alert the cpu
+
+    --
+    --avalon-mm interface
+    --
+    avm_readdata                                                     : out std_logic_vector(31 downto 0);
+    avm_read                                                         : in  std_logic;
+    avm_address                                                      : in  std_logic_vector(31 downto 0)          --0 or 1 depending on which register is being addressed
+
+);
+
+end data_handler;
+
+architecture data_handler_behavioral of data_handler is 
+
+--
+--type
+--
+type t_fsm is (S_IDLE, S_COMM, S_ADDRESS, S_LENGTH, S_DATA0, S_DATA1, S_DATA2, S_DATA3, S_DATA4, S_DATA5, S_DATA6);--the state we are in means that the data associated to the state name have already been transmitted (ex: S_DATA0 means that data0 byte has been transmitted)
+
+--
+--constants
+--
+constant C_MAX_ADDRESS                                               : unsigned(19 downto 0) := x"00106";
+--
+--signal
+--
+
+--fsm
+signal current_state                                                 : t_fsm := S_IDLE;
+signal fsm_continue                                                  : std_logic := '0';                          --assigned to 1 when the next fsm state should be assigned
+
+
+--edge detector
+signal last_val                                                      : std_logic := '0';                          --contains the last value being sampled on the signal which we want to detect a rising edge
+signal edge_detected                                                 : std_logic := '0';                          --assigned to one when a rising edge is detected 
+
+--
+--memory registers
+--
+signal reg_32_0                                                      : std_logic_vector(31 downto 0);
+signal reg_32_1                                                      : std_logic_vector(31 downto 0);
+
+--local variables
+signal local_address                                                 : unsigned(19 downto 0);
+signal local_length                                                  : unsigned(7 downto 0);
+signal local_data                                                    : std_logic_vector(7 downto 0);
+signal useful_bytes                                                  : integer;
+signal write_reg                                                     : std_logic := '0';
+
+
+begin
+
+
+--rising_edge_detector monitors the appropriate input signal (depending on the current state) and asserts edge_detected when a rising edge occurs
+rising_edge_detector: process(clk_100) is 
+    begin
+        if rising_edge(clk_100) then
+
+            if reset = '1' then 
+                last_val      <= '0';
+                edge_detected <= '0';
+            else
+                case current_state is
+                    when S_IDLE => last_val <= decod_comm_ready;
+                        edge_detected <= not last_val and decod_comm_ready;
+                    when S_COMM => last_val <= decod_length_ready;
+                        edge_detected <= not last_val and decod_address_ready;
+                    when S_ADDRESS => last_val <= decod_length_ready;
+                        edge_detected <= not last_val and decod_length_ready;
+                    when S_LENGTH => last_val <= decod_data0_ready;
+                        edge_detected <= not last_val and decod_data0_ready;
+                    when S_DATA0 => last_val <= decod_data1_ready;
+                        edge_detected <= not last_val and decod_data1_ready;
+                    when S_DATA1 => last_val <= decod_data2_ready; 
+                        edge_detected <= not last_val and decod_data2_ready;
+                    when S_DATA2 => last_val <= decod_data3_ready;
+                        edge_detected <= not last_val and decod_data3_ready;
+                    when S_DATA3 => last_val <= decod_data4_ready;
+                        edge_detected <= not last_val and decod_data4_ready;
+                    when S_DATA4 => last_val <= decod_data5_ready;
+                        edge_detected <= not last_val and decod_data5_ready;
+                    when S_DATA5 => last_val <= decod_data6_ready; 
+                        edge_detected <= not last_val and decod_data6_ready;
+		              when others =>						
+                end case;
+            end if;
+        end if;
+    end process;
+
+
+compute_next_state: process(clk_100) is 
+    begin
+        if rising_edge(clk_100) then 
+            if reset = '1' then 
+                current_state <= S_IDLE;
+                write_reg <= '0';
+            else
+                write_reg <= '0';
+                case current_state is 
+
+                    when S_IDLE => 
+                        if (edge_detected = '1' and decod_comm = "1000") then                                    --decod_comm = '1000' means that it is a write
+                            current_state <= S_COMM;
+                        end if;
+
+                    when S_COMM =>                                                                               --S_COMM means that the command has been received
+                        if edge_detected = '1' then                                                              --edge_detected means that the next chunck of data is available
+                            if decod_address >= x"00100" and decod_address <= x"00106" then 
+                                local_address <= unsigned(decod_address);
+                                current_state <= S_ADDRESS;
+                            else
+                                current_state <= S_IDLE;
+                            end if;
+                        end if;
+
+                    when S_ADDRESS =>
+                        if edge_detected = '1' then
+                            local_length <= unsigned(decod_length);
+                            current_state <= S_LENGTH;
+                        end if;
+
+                    when S_LENGTH =>
+                        if edge_detected = '1' then
+                            if (C_MAX_ADDRESS - local_address + 1) >= local_length then
+                                useful_bytes <= to_integer(local_length);
+                            else 
+                                useful_bytes <= to_integer(C_MAX_ADDRESS) - to_integer(local_address) + 1;
+                            end if;
+                            local_data <= decod_data0;
+                            local_address <= local_address;
+                            write_reg <= '1';
+                            useful_bytes <= useful_bytes - 1;
+                            current_state <= S_DATA0;
+                        end if;
+
+                    when S_DATA0 =>
+                        if useful_bytes > 0 then
+                            write_reg <= '0';
+                            if edge_detected = '1' then
+                                local_data <= decod_data1;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                useful_bytes <= useful_bytes - 1;
+                                current_state <= S_DATA1;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+
+                    when S_DATA1 =>
+                        if useful_bytes > 0 then
+                            if edge_detected = '1' then
+                                local_data <= decod_data2;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                useful_bytes <= useful_bytes - 1;
+                                current_state <= S_DATA2;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+
+                    when S_DATA2 =>
+                        if useful_bytes > 0 then
+                            if edge_detected = '1' then
+                                local_data <= decod_data3;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                useful_bytes <= useful_bytes - 1;
+                                current_state <= S_DATA3;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+
+                    when S_DATA3 =>
+                        if useful_bytes > 0 then
+                            if edge_detected = '1' then
+                                local_data <= decod_data4;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                useful_bytes <= useful_bytes - 1;
+                                current_state <= S_DATA4;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+                    
+                    when S_DATA4 =>
+                        if useful_bytes > 0 then
+                            if edge_detected = '1' then
+                                local_data <= decod_data5;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                useful_bytes <= useful_bytes - 1;
+                                current_state <= S_DATA5;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+
+                    when S_DATA5 =>
+                        if useful_bytes > 0 then
+                            if edge_detected = '1' then
+                                local_data <= decod_data6;
+                                local_address <= local_address + 1;
+                                write_reg <= '1';
+                                current_state <= S_DATA6;
+                            end if;
+                        else --it means that there is no useful data byte left 
+                            current_state <= S_IDLE;
+                        end if;
+
+                    when S_DATA6 =>
+                       current_state <= S_IDLE;
+
+                end case;
+
+            end if;
+        end if;
+    end process;
+
+
+--data_write: saves the data transmitted from the manchester_decoder into the appropriate register
+--
+--           (31 downto 24) | (23 downto 16) | (15 downto 8) | (7 downto 0)
+--       ----------------------------------------------------------------------
+--reg_0:|      103h         |    102h        |    101h       |     100h        |    avm_address= 0
+--       ----------------------------------------------------------------------
+--reg_1:|     unused        |    106h        |    105h       |     104h        |    avm_adress= 1
+--       ----------------------------------------------------------------------
+data_write: process(clk_100) is 
+    begin
+        if (rising_edge(clk_100)) then
+            if reset = '1' then
+                reg_32_0 <= others => '0';
+                reg_32_1 <= others => '1';
+                link_training_active <= '0';
+            end if;
+            if (reg_32_0(17 downto 16) = "00") then
+				    link_training_active <= '0';
+				else
+				    link_training_active <= '1';
+				end if;
+			   if write_reg = '1' then
+					case local_address is
+						 when x"00100" => reg_32_0(7 downto 0)          <= local_data; 
+						 when x"00101" => reg_32_0(15 downto 8)         <= local_data;
+						 when x"00102" => reg_32_0(23 downto 16)        <= local_data;
+						 when x"00103" => reg_32_0(31 downto 24)        <= local_data;
+						 when x"00104" => reg_32_1(7 downto 0)          <= local_data;
+						 when x"00105" => reg_32_1(15 downto 8)         <= local_data;
+						 when x"00106" => reg_32_1(23 downto 16)        <= local_data;
+						 when others =>
+					end case;
+				  end if;
+	      end if;			  
+    end process;
+	 
+data_avalon: process(clk_100) is 
+    begin
+	     if rising_edge(clk_100) then
+            if avm_read = '1' then 
+                if avm_address(3 downto 0) = "000" then 
+                    avm_readdata <= reg_32_0;
+                elsif avm_address(3 downto 0) = "100" then 
+                    avm_readdata <= reg_32_1;
+                end if;
+            end if;
+        end if; 
+	 end process;
+
+end architecture data_handler_behavioral;
+

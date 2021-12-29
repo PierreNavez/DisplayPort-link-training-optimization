@@ -1,0 +1,133 @@
+Flow report for data_handler
+Fri Oct 22 13:14:53 2021
+Quartus Prime Version 20.2.0 Build 50 06/11/2020 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Parallel Compilation
+  2. Legal Notice
+  3. Flow Summary
+  4. Flow Settings
+  5. Flow Non-Default Global Settings
+  6. Flow Elapsed Time
+  7. Flow OS Summary
+  8. Flow Log
+
+
+
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 4      ;
++----------------------------+--------+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-----------------------------+-------------------------------------------+
+; Flow Status                 ; Successful - Fri Oct 22 13:14:53 2021     ;
+; Quartus Prime Version       ; 20.2.0 Build 50 06/11/2020 SC Pro Edition ;
+; Revision Name               ; data_handler                              ;
+; Top-level Entity Name       ; data_handler                              ;
+; Family                      ; Arria 10                                  ;
+; Device                      ; 10AX115H1F34I1SG                          ;
+; Timing Models               ; Final                                     ;
+; Power Models                ; Final                                     ;
+; Device Status               ; Final                                     ;
+; Logic utilization (in ALMs) ; 137 / 427,200 ( < 1 % )                   ;
+; Total registers             ; 155                                       ;
+; Total pins                  ; 167 / 618 ( 27 % )                        ;
+; Total virtual pins          ; 0                                         ;
+; Total block memory bits     ; 0 / 55,562,240 ( 0 % )                    ;
+; Total RAM Blocks            ; 0 / 2,713 ( 0 % )                         ;
+; Total DSP Blocks            ; 0 / 1,518 ( 0 % )                         ;
+; Total HSSI RX channels      ; 0 / 24 ( 0 % )                            ;
+; Total HSSI TX channels      ; 0 / 24 ( 0 % )                            ;
+; Total PLLs                  ; 0 / 80 ( 0 % )                            ;
++-----------------------------+-------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/22/2021 13:10:14 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; data_handler        ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                          ;
++--------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name          ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++--------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID    ; 189250940757959.163490101404392 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT   ; Vhdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL      ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE           ; 1 ps                            ; --            ; --          ; eda_simulation ;
+; PROJECT_OUTPUT_DIRECTORY ; output_files                    ; --            ; --          ; --             ;
++--------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++------------------------------------------------------+
+; Flow Elapsed Time                                    ;
++-----------------+--------------+---------------------+
+; Module Name     ; Elapsed Time ; Peak Virtual Memory ;
++-----------------+--------------+---------------------+
+; Synthesis       ; 00:00:03     ; 574 MB              ;
+; Fitter          ; 00:03:23     ; 5327 MB             ;
+; Timing Analyzer ; 00:00:05     ; 1625 MB             ;
+; Assembler       ; 00:01:02     ; 5875 MB             ;
+; Total           ; 00:04:33     ; --                  ;
++-----------------+--------------+---------------------+
+
+
++-------------------------------------------------------------------------------+
+; Flow OS Summary                                                               ;
++-----------------+------------------+------------+------------+----------------+
+; Module Name     ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-----------------+------------------+------------+------------+----------------+
+; Synthesis       ; W10-PC-STG2      ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter          ; W10-PC-STG2      ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer ; W10-PC-STG2      ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler       ; W10-PC-STG2      ; Windows 10 ; 10.0       ; x86_64         ;
++-----------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_syn --read_settings_files=on --write_settings_files=off Data_Handler -c data_handler
+quartus_fit --read_settings_files=on --write_settings_files=off Data_Handler -c data_handler
+quartus_sta Data_Handler -c data_handler --mode=finalize
+quartus_asm --read_settings_files=on --write_settings_files=off Data_Handler -c data_handler
+
+
+

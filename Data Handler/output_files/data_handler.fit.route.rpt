@@ -1,0 +1,346 @@
+Fitter Route Stage Report for data_handler
+Fri Oct 22 13:13:26 2021
+Quartus Prime Version 20.2.0 Build 50 06/11/2020 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Delay Chain Summary
+  3. Routing Usage Summary
+  4. Route Messages
+  5. Estimated Delay Added for Hold Timing Summary
+  6. Estimated Delay Added for Hold Timing Details
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                                                                   ;
++----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Name                 ; Pin Type ; Input Delay Chain 0 ; Output Delay Chain ; OE Delay Chain ; IO_12_LANE Input Data Delay Chain ; IO_12_LANE Input Strobe Delay Chain ;
++----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; link_training_active ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[0]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[1]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[2]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[3]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[4]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[5]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[6]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[7]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[8]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[9]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[10]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[11]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[12]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[13]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[14]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[15]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[16]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[17]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[18]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[19]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[20]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[21]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[22]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[23]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[24]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[25]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[26]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[27]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[28]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[29]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[30]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_readdata[31]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_address[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[8]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[9]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[10]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[11]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[12]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[13]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[14]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[15]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[16]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[17]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[18]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[19]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[20]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[21]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[22]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[23]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[24]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[25]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[26]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[27]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[28]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[29]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[30]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[31]      ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_waitrequest      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; avm_address[0]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[1]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_address[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; avm_read             ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[2]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[3]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[4]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[5]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[6]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[7]       ; Input    ; --                  ; --                 ; --             ; --                                ; --                                  ;
+; hpd                  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; clk_100              ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[19]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[0]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[1]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[2]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[15]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[16]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[17]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[18]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[3]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[4]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[5]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[6]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[7]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[8]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[9]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[10]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[11]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[12]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[13]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address[14]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length_ready   ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data0_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_comm_ready     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_address_ready  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data6_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data5_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data4_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data3_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data2_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_data1_ready    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_comm[0]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_comm[1]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_comm[2]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_comm[3]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[5]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[4]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[3]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[2]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[1]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[0]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[7]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; decod_length[6]      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
++----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+
+
++----------------------------------------------------------+
+; Routing Usage Summary                                    ;
++------------------------------+---------------------------+
+; Routing Resource Type        ; Usage                     ;
++------------------------------+---------------------------+
+; Block interconnects          ; 523 / 3,375,986 ( < 1 % ) ;
+; C27 interconnects            ; 1 / 56,741 ( < 1 % )      ;
+; C4 interconnects             ; 425 / 2,570,048 ( < 1 % ) ;
+; Direct links                 ; 192 / 3,375,986 ( < 1 % ) ;
+; Global clocks                ; 1 / 32 ( 3 % )            ;
+; Periphery clocks             ; 0 / 910 ( 0 % )           ;
+; R3 interconnects             ; 121 / 1,214,760 ( < 1 % ) ;
+; R32 interconnects            ; 0 / 99,472 ( 0 % )        ;
+; R32/C27 interconnect drivers ; 1 / 385,136 ( < 1 % )     ;
+; R6 interconnects             ; 155 / 2,336,152 ( < 1 % ) ;
+; Regional clock lefts         ; 0 / 16 ( 0 % )            ;
+; Regional clock out bottoms   ; 0 / 16 ( 0 % )            ;
+; Regional clock out tops      ; 0 / 16 ( 0 % )            ;
+; Regional clock rights        ; 0 / 16 ( 0 % )            ;
+; Regional clocks              ; 0 / 16 ( 0 % )            ;
+; Spine buffers                ; 1 / 704 ( < 1 % )         ;
+; Spine clocks                 ; 1 / 1,056 ( < 1 % )       ;
+; Spine feedthroughs           ; 0 / 1,024 ( 0 % )         ;
++------------------------------+---------------------------+
+
+
++----------------+
+; Route Messages ;
++----------------+
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 20.2.0 Build 50 06/11/2020 SC Pro Edition
+    Info: Processing started: Fri Oct 22 13:10:18 2021
+    Info: System process ID: 7860
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off Data_Handler -c data_handler
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = Data_Handler
+Info: Revision = data_handler
+Info (170193): Fitter routing operations beginning
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (11888): Total time spent on timing analysis during Routing is 0.11 seconds.
+Info (16607): Fitter routing operations ending: elapsed time is 00:00:43
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary              ;
++-----------------+----------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+; clk_100         ; clk_100              ; 14.7              ;
++-----------------+----------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++-------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                           ;
++-------------------------+---------------------------+-------------------+
+; Source Register         ; Destination Register      ; Delay Added in ns ;
++-------------------------+---------------------------+-------------------+
+; last_val                ; edge_detected             ; 0.284             ;
+; current_state.s_length  ; write_reg                 ; 0.272             ;
+; local_data[0]           ; reg_32_0[16]              ; 0.261             ;
+; reg_32_0[16]            ; link_training_active~reg0 ; 0.261             ;
+; reset                   ; current_state.s_data6     ; 0.255             ;
+; current_state.s_data3   ; current_state.s_data4     ; 0.254             ;
+; current_state.s_data2   ; current_state.s_data3     ; 0.254             ;
+; current_state.s_data5   ; current_state.s_data6     ; 0.251             ;
+; current_state.s_data1   ; current_state.s_data2     ; 0.247             ;
+; reg_32_0[17]            ; link_training_active~reg0 ; 0.244             ;
+; local_length[6]         ; useful_bytes[6]           ; 0.238             ;
+; current_state.s_data4   ; current_state.s_data5     ; 0.235             ;
+; last_val_hpd            ; reset                     ; 0.234             ;
+; data0[1]                ; local_data[1]             ; 0.231             ;
+; local_length[1]         ; useful_bytes[1]           ; 0.230             ;
+; length[1]               ; local_length[1]           ; 0.228             ;
+; local_length[2]         ; useful_bytes[2]           ; 0.228             ;
+; current_state.s_data0   ; current_state.s_data1     ; 0.225             ;
+; local_data[1]           ; reg_32_0[17]              ; 0.225             ;
+; edge_detected           ; current_state.s_data0     ; 0.214             ;
+; data1[1]                ; local_data[1]             ; 0.214             ;
+; local_length[3]         ; useful_bytes[3]           ; 0.201             ;
+; local_length[4]         ; useful_bytes[4]           ; 0.197             ;
+; address[5]              ; local_address[5]          ; 0.191             ;
+; address[4]              ; local_address[4]          ; 0.178             ;
+; local_length[5]         ; useful_bytes[5]           ; 0.178             ;
+; address[6]              ; local_address[6]          ; 0.174             ;
+; address[12]             ; local_address[12]         ; 0.174             ;
+; address[7]              ; local_address[7]          ; 0.174             ;
+; address[8]              ; local_address[8]          ; 0.170             ;
+; length[7]               ; local_length[7]           ; 0.164             ;
+; address[11]             ; local_address[11]         ; 0.164             ;
+; comm_ready              ; last_val                  ; 0.160             ;
+; data0_ready             ; last_val                  ; 0.160             ;
+; current_state.s_idle    ; last_val                  ; 0.160             ;
+; local_length[7]         ; useful_bytes[7]           ; 0.160             ;
+; address[9]              ; local_address[9]          ; 0.158             ;
+; local_address[1]        ; useful_bytes[1]           ; 0.153             ;
+; local_address[3]        ; useful_bytes[3]           ; 0.150             ;
+; address[13]             ; local_address[13]         ; 0.148             ;
+; data1[0]                ; local_data[0]             ; 0.148             ;
+; useful_bytes[31]        ; current_state.s_data1     ; 0.144             ;
+; address[10]             ; local_address[10]         ; 0.140             ;
+; address[14]             ; local_address[14]         ; 0.137             ;
+; current_state.s_comm    ; current_state.s_comm      ; 0.137             ;
+; length[0]               ; local_length[0]           ; 0.134             ;
+; address[3]              ; local_address[3]          ; 0.134             ;
+; data0[0]                ; local_data[0]             ; 0.117             ;
+; address[19]             ; local_address[19]         ; 0.117             ;
+; data2[1]                ; local_data[1]             ; 0.113             ;
+; data3[1]                ; local_data[1]             ; 0.113             ;
+; address[2]              ; local_address[2]          ; 0.097             ;
+; length[5]               ; local_length[5]           ; 0.093             ;
+; address[18]             ; local_address[18]         ; 0.093             ;
+; current_state.s_address ; current_state.s_address   ; 0.093             ;
+; local_address[2]        ; useful_bytes[2]           ; 0.093             ;
+; address[15]             ; local_address[15]         ; 0.091             ;
+; address[16]             ; local_address[16]         ; 0.087             ;
+; address[1]              ; local_address[1]          ; 0.080             ;
+; address[17]             ; local_address[17]         ; 0.073             ;
+; address[0]              ; local_address[0]          ; 0.070             ;
+; length_ready            ; last_val                  ; 0.043             ;
+; current_state.s_data6   ; last_val                  ; 0.043             ;
+; address_ready           ; edge_detected             ; 0.041             ;
+; local_address[0]        ; local_address[18]         ; 0.022             ;
+; data2[0]                ; local_data[0]             ; 0.021             ;
+; data3[0]                ; local_data[0]             ; 0.021             ;
+; useful_bytes[22]        ; useful_bytes[22]          ; 0.010             ;
++-------------------------+---------------------------+-------------------+
+Note: This table only shows the top 68 path(s) that have the largest delay added for hold.
+
+

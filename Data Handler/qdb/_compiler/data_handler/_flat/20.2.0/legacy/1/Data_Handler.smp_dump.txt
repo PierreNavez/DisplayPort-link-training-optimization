@@ -1,0 +1,16 @@
+
+State Machine - current_state
+Name current_state.s_data6 current_state.s_data5 current_state.s_data4 current_state.s_data3 current_state.s_data2 current_state.s_data1 current_state.s_data0 current_state.s_length current_state.s_address current_state.s_comm current_state.s_idle 
+current_state.s_idle 0 0 0 0 0 0 0 0 0 0 0 
+current_state.s_comm 0 0 0 0 0 0 0 0 0 1 1 
+current_state.s_address 0 0 0 0 0 0 0 0 1 0 1 
+current_state.s_length 0 0 0 0 0 0 0 1 0 0 1 
+current_state.s_data0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.s_data1 0 0 0 0 0 1 0 0 0 0 1 
+current_state.s_data2 0 0 0 0 1 0 0 0 0 0 1 
+current_state.s_data3 0 0 0 1 0 0 0 0 0 0 1 
+current_state.s_data4 0 0 1 0 0 0 0 0 0 0 1 
+current_state.s_data5 0 1 0 0 0 0 0 0 0 0 1 
+current_state.s_data6 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - Summary

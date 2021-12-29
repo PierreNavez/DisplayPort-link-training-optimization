@@ -1,0 +1,19 @@
+Fitter Status : Successful - Fri Oct 22 13:13:41 2021
+Quartus Prime Version : 20.2.0 Build 50 06/11/2020 SC Pro Edition
+Revision Name : data_handler
+Top-level Entity Name : data_handler
+Family : Arria 10
+Device : 10AX115H1F34I1SG
+Timing Models : Final
+Power Models : Final
+Device Status : Final
+Logic utilization (in ALMs) : 137 / 427,200 ( < 1 % )
+Total registers : 155
+Total pins : 167 / 618 ( 27 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 55,562,240 ( 0 % )
+Total RAM Blocks : 0 / 2,713 ( 0 % )
+Total DSP Blocks : 0 / 1,518 ( 0 % )
+Total HSSI RX channels : 0 / 24 ( 0 % )
+Total HSSI TX channels : 0 / 24 ( 0 % )
+Total PLLs : 0 / 80 ( 0 % )

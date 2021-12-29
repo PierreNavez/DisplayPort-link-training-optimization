@@ -1,0 +1,461 @@
+# Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do data_handler_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:54:18 on Oct 21,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 08:54:18 on Oct 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:55:42 on Oct 21,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 08:55:42 on Oct 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:55:46 on Oct 21,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 08:55:46 on Oct 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# vsim work.data_handler_tb 
+# Start time: 08:55:50 on Oct 21,2021
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.data_handler_tb(data_handler_tb_behav) because work.data_handler has changed.
+# Error loading design
+# End time: 08:55:50 on Oct 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.data_handler
+# vsim work.data_handler 
+# Start time: 08:55:55 on Oct 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler(data_handler_behavioral)
+vsim work.data_handler_tb
+# End time: 08:56:04 on Oct 21,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# vsim work.data_handler_tb 
+# Start time: 08:56:04 on Oct 21,2021
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.data_handler_tb(data_handler_tb_behav) because work.data_handler has changed.
+# Error loading design
+# End time: 08:56:05 on Oct 21,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:56:17 on Oct 21,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 08:56:18 on Oct 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:56:20 on Oct 21,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 08:56:21 on Oct 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# vsim work.data_handler_tb 
+# Start time: 08:56:23 on Oct 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:05:17 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(182): near "end": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(186): Illegal sequential statement.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(412): Cannot read output "avm_waitrequest".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(425): near "architecture": (vcom-1576) expecting PROCESS.
+# End time: 11:05:17 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:08:31 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(414): (vcom-1136) Unknown identifier "avm_waitrequest_set".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(414): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'and'.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(414): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(428): VHDL Compiler exiting
+# End time: 11:08:31 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:09:55 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 11:09:55 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:09:58 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd(71): (vcom-1484) Unknown formal identifier "hdp".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd(313): VHDL Compiler exiting
+# End time: 11:09:58 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:10:26 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 11:10:26 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# End time: 11:10:39 on Oct 22,2021, Elapsed time: 26:14:16
+# Errors: 10, Warnings: 1
+# vsim work.data_handler_tb 
+# Start time: 11:10:39 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+run -all
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:14:33 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 11:14:33 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+vsim work.data_handler_tb
+# End time: 11:15:26 on Oct 22,2021, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 0
+# vsim work.data_handler_tb 
+# Start time: 11:15:26 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vsim work.data_handler_tb
+# End time: 11:18:40 on Oct 22,2021, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 0
+# vsim work.data_handler_tb 
+# Start time: 11:18:40 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:20:38 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 11:20:38 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# End time: 11:20:53 on Oct 22,2021, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 1
+# vsim work.data_handler_tb 
+# Start time: 11:20:53 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:26:56 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(107): near "<=": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(108): near "<=": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(383): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(383): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(384): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(384): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(387): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(387): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(394): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(394): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(395): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(395): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(396): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(396): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(397): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(397): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(398): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(398): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(399): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(399): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(400): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(400): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(419): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(421): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(428): VHDL Compiler exiting
+# End time: 11:26:56 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:17 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 11:28:18 on Oct 22,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:21 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 11:28:21 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# End time: 11:28:34 on Oct 22,2021, Elapsed time: 0:07:41
+# Errors: 25, Warnings: 1
+# vsim work.data_handler_tb 
+# Start time: 11:28:34 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vsim work.data_handler_tb
+# End time: 11:46:43 on Oct 22,2021, Elapsed time: 0:18:09
+# Errors: 0, Warnings: 0
+# vsim work.data_handler_tb 
+# Start time: 11:46:43 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+# WARNING: No extended dataflow license exists
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:47:04 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(107): near "others": syntax error
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(108): near "others": syntax error
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(385): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(385): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(392): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(392): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(393): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(393): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(394): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(394): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(395): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(395): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(396): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(396): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(397): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(397): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(398): Illegal target for signal assignment.
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(398): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(417): (vcom-1136) Unknown identifier "reg_32_0".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(419): (vcom-1136) Unknown identifier "reg_32_1".
+# ** Error: C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd(426): VHDL Compiler exiting
+# End time: 11:47:04 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:28 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler
+# -- Compiling architecture data_handler_behavioral of data_handler
+# End time: 11:48:28 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# End time: 11:49:48 on Oct 22,2021, Elapsed time: 0:03:05
+# Errors: 21, Warnings: 1
+# vsim work.data_handler_tb 
+# Start time: 11:49:48 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+vcom -reportprogress 300 -work work {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:42 on Oct 22,2021
+# vcom -reportprogress 300 -work work C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/Sources/data_handler_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_handler_tb
+# -- Compiling architecture data_handler_tb_behav of data_handler_tb
+# -- Loading entity data_handler
+# End time: 11:52:42 on Oct 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.data_handler_tb
+# End time: 11:52:52 on Oct 22,2021, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 1
+# vsim work.data_handler_tb 
+# Start time: 11:52:53 on Oct 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+run -all
+# End time: 12:08:58 on Oct 22,2021, Elapsed time: 0:16:05
+# Errors: 0, Warnings: 0

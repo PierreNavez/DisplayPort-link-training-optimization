@@ -1,0 +1,580 @@
+Synthesis report
+Fri Oct 22 13:10:17 2021
+Quartus Prime Version 20.2.0 Build 50 06/11/2020 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Synthesis Summary
+  2. Synthesis Settings
+  3. Synthesis Source Files Read
+  4. Synthesis Partition Summary
+  5. Partition "root_partition" Resource Utilization by Entity
+  6. State Machine - current_state
+  7. State Machine - Summary
+  8. Registers Removed During Synthesis
+  9. Removed Registers Triggering Further Register Optimizations
+ 10. General Register Statistics for Partition "root_partition"
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Post-Synthesis Netlist Statistics for Partition "root_partition"
+ 14. Synthesis Resource Usage Summary for Partition "root_partition"
+ 15. Synthesis Messages
+
+
+
++---------------------------------------------------------------+
+; Synthesis Summary                                             ;
++-----------------------+---------------------------------------+
+; Synthesis Status      ; Successful - Fri Oct 22 13:10:17 2021 ;
+; Revision Name         ; data_handler                          ;
+; Top-level Entity Name ; data_handler                          ;
+; Family                ; Arria 10                              ;
++-----------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Settings                                                                                                        ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 10AX115H1F34I1SG   ;                    ;
+; Top-level entity name                                                           ; data_handler       ; data_handler       ;
+; Family name                                                                     ; Arria 10           ; Cyclone 10 GX      ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Design Assistant include IP blocks                                              ; Off                ; Off                ;
+; High fanout net threshold for RAM inference                                     ; 15                 ; 15                 ;
+; Design Assistant limit on reported violations per rule                          ; 500                ; 500                ;
+; Optimization Mode                                                               ; Balanced           ; Balanced           ;
+; Allow Register Merging                                                          ; On                 ; On                 ;
+; Allow Register Duplication                                                      ; On                 ; On                 ;
+; Allow Register Retiming                                                         ; On                 ; On                 ;
+; Allow RAM Retiming                                                              ; Off                ; Off                ;
+; Allow DSP Retiming                                                              ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Auto               ; Auto               ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Number of Protected Registers Reported in Synthesis Report                      ; 100                ; 100                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
+; Disable DSP Negate Inferencing                                                  ; Off                ; Off                ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Size of the Latch Report                                                        ; 100                ; 100                ;
+; Enable State Machines Inference                                                 ; On                 ; On                 ;
+; Enable formal verification support during compilation                           ; Off                ; Off                ;
+; Size of the PR Initial Conditions Report                                        ; 100                ; 100                ;
+; Number of Registers with Ignored Power-Up Settings Reported in Synthesis Report ; 500                ; 500                ;
+; Report PR Initial Values as Errors                                              ; Off                ; Off                ;
+; Fractal Synthesis                                                               ; Off                ; Off                ;
+; Synthesis Available Resource Multiplier                                         ; 1                  ; 1                  ;
+; Message Level for Unconnected Output Ports                                      ; Off                ; Off                ;
+; Pack Barrelshifters into Carry Chains for Better Area                           ; Auto               ; Auto               ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Source Files Read                                                                                                                                                             ;
++----------------------------------+-----------------+---------------------------------------------------------------------------------------+---------+----------------------------------+
+; File Name with User-Entered Path ; File Type       ; File Name with Absolute Path                                                          ; Library ; MD5                              ;
++----------------------------------+-----------------+---------------------------------------------------------------------------------------+---------+----------------------------------+
+; Sources/data_handler.vhd         ; User VHDL File  ; C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd ;         ; a12c57ab9f4a897fb8f390f6bf51edff ;
++----------------------------------+-----------------+---------------------------------------------------------------------------------------+---------+----------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Synthesis Partition Summary                                                                ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; Partition Name ; Hierarchy Path ; Type    ; Preservation ; Empty ; Partition Database File ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+; root_partition ; |              ; Default ;              ;       ;                         ;
++----------------+----------------+---------+--------------+-------+-------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition "root_partition" Resource Utilization by Entity                                                                                                                                        ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+--------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; IOPLLs ; Full Hierarchy Name ; Entity Name  ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+--------------+--------------+
+; |                          ; 220 (220)           ; 138 (138)                 ; 0                 ; 0          ; 0    ; 0            ; 0 (0)  ; |                   ; data_handler ; altera_work  ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------+---------------------+--------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - current_state                                                                                                                                                                                                                                                                    ;
++-------------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+------------------------+-------------------------+----------------------+----------------------+
+; Name                    ; current_state.s_data6 ; current_state.s_data5 ; current_state.s_data4 ; current_state.s_data3 ; current_state.s_data2 ; current_state.s_data1 ; current_state.s_data0 ; current_state.s_length ; current_state.s_address ; current_state.s_comm ; current_state.s_idle ;
++-------------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+------------------------+-------------------------+----------------------+----------------------+
+; current_state.s_idle    ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 0                    ;
+; current_state.s_comm    ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 1                    ; 1                    ;
+; current_state.s_address ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 1                       ; 0                    ; 1                    ;
+; current_state.s_length  ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data0   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data1   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data2   ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data3   ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data4   ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data5   ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
+; current_state.s_data6   ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                      ; 0                       ; 0                    ; 1                    ;
++-------------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+------------------------+-------------------------+----------------------+----------------------+
+
+
++---------------------------------------------------------------------------+
+; State Machine - Summary                                                   ;
++---------------+------------------+------------+----------------+----------+
+; Name          ; Number of States ; Using aclr ; Encoding Style ; Safeness ;
++---------------+------------------+------------+----------------+----------+
+; current_state ; 11               ; No         ; One-Hot        ; Not Safe ;
++---------------+------------------+------------+----------------+----------+
+
+
++----------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                               ;
++-----------------------------------------+----------------------------------------+
+; Register name                           ; Reason for Removal                     ;
++-----------------------------------------+----------------------------------------+
+; wait_request_set                        ; Merged with avm_waitrequest~reg0       ;
+; avm_readdata[0]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[0]                             ; Lost fanout                            ;
+; reg_32_1[0]                             ; Lost fanout                            ;
+; avm_readdata[1]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[1]                             ; Lost fanout                            ;
+; reg_32_1[1]                             ; Lost fanout                            ;
+; avm_readdata[2]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[2]                             ; Lost fanout                            ;
+; reg_32_1[2]                             ; Lost fanout                            ;
+; avm_readdata[3]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[3]                             ; Lost fanout                            ;
+; reg_32_1[3]                             ; Lost fanout                            ;
+; avm_readdata[4]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[4]                             ; Lost fanout                            ;
+; reg_32_1[4]                             ; Lost fanout                            ;
+; avm_readdata[5]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[5]                             ; Lost fanout                            ;
+; reg_32_1[5]                             ; Lost fanout                            ;
+; avm_readdata[6]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[6]                             ; Lost fanout                            ;
+; reg_32_1[6]                             ; Lost fanout                            ;
+; avm_readdata[7]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[7]                             ; Lost fanout                            ;
+; reg_32_1[7]                             ; Lost fanout                            ;
+; avm_readdata[8]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[8]                             ; Lost fanout                            ;
+; reg_32_1[8]                             ; Lost fanout                            ;
+; avm_readdata[9]~reg0                    ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[9]                             ; Lost fanout                            ;
+; reg_32_1[9]                             ; Lost fanout                            ;
+; avm_readdata[10]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[10]                            ; Lost fanout                            ;
+; reg_32_1[10]                            ; Lost fanout                            ;
+; avm_readdata[11]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[11]                            ; Lost fanout                            ;
+; reg_32_1[11]                            ; Lost fanout                            ;
+; avm_readdata[12]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[12]                            ; Lost fanout                            ;
+; reg_32_1[12]                            ; Lost fanout                            ;
+; avm_readdata[13]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[13]                            ; Lost fanout                            ;
+; reg_32_1[13]                            ; Lost fanout                            ;
+; avm_readdata[14]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[14]                            ; Lost fanout                            ;
+; reg_32_1[14]                            ; Lost fanout                            ;
+; avm_readdata[15]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[15]                            ; Lost fanout                            ;
+; reg_32_1[15]                            ; Lost fanout                            ;
+; avm_readdata[16]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_1[16]                            ; Lost fanout                            ;
+; avm_readdata[17]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_1[17]                            ; Lost fanout                            ;
+; avm_readdata[18]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[18]                            ; Lost fanout                            ;
+; reg_32_1[18]                            ; Lost fanout                            ;
+; avm_readdata[19]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[19]                            ; Lost fanout                            ;
+; reg_32_1[19]                            ; Lost fanout                            ;
+; avm_readdata[20]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[20]                            ; Lost fanout                            ;
+; reg_32_1[20]                            ; Lost fanout                            ;
+; avm_readdata[21]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[21]                            ; Lost fanout                            ;
+; reg_32_1[21]                            ; Lost fanout                            ;
+; avm_readdata[22]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[22]                            ; Lost fanout                            ;
+; reg_32_1[22]                            ; Lost fanout                            ;
+; avm_readdata[23]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[23]                            ; Lost fanout                            ;
+; reg_32_1[23]                            ; Lost fanout                            ;
+; avm_readdata[24]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[24]                            ; Lost fanout                            ;
+; avm_readdata[25]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[25]                            ; Lost fanout                            ;
+; avm_readdata[26]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[26]                            ; Lost fanout                            ;
+; local_data[2]                           ; Lost fanout                            ;
+; data6[2]                                ; Lost fanout                            ;
+; data5[2]                                ; Lost fanout                            ;
+; data4[2]                                ; Lost fanout                            ;
+; data3[2]                                ; Lost fanout                            ;
+; data2[2]                                ; Lost fanout                            ;
+; data1[2]                                ; Lost fanout                            ;
+; data0[2]                                ; Lost fanout                            ;
+; avm_readdata[27]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[27]                            ; Lost fanout                            ;
+; local_data[3]                           ; Lost fanout                            ;
+; data6[3]                                ; Lost fanout                            ;
+; data5[3]                                ; Lost fanout                            ;
+; data4[3]                                ; Lost fanout                            ;
+; data3[3]                                ; Lost fanout                            ;
+; data2[3]                                ; Lost fanout                            ;
+; data1[3]                                ; Lost fanout                            ;
+; data0[3]                                ; Lost fanout                            ;
+; avm_readdata[28]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[28]                            ; Lost fanout                            ;
+; local_data[4]                           ; Lost fanout                            ;
+; data6[4]                                ; Lost fanout                            ;
+; data5[4]                                ; Lost fanout                            ;
+; data4[4]                                ; Lost fanout                            ;
+; data3[4]                                ; Lost fanout                            ;
+; data2[4]                                ; Lost fanout                            ;
+; data1[4]                                ; Lost fanout                            ;
+; data0[4]                                ; Lost fanout                            ;
+; avm_readdata[29]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[29]                            ; Lost fanout                            ;
+; local_data[5]                           ; Lost fanout                            ;
+; data6[5]                                ; Lost fanout                            ;
+; data5[5]                                ; Lost fanout                            ;
+; data4[5]                                ; Lost fanout                            ;
+; data3[5]                                ; Lost fanout                            ;
+; data2[5]                                ; Lost fanout                            ;
+; data1[5]                                ; Lost fanout                            ;
+; data0[5]                                ; Lost fanout                            ;
+; avm_readdata[30]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[30]                            ; Lost fanout                            ;
+; local_data[6]                           ; Lost fanout                            ;
+; data6[6]                                ; Lost fanout                            ;
+; data5[6]                                ; Lost fanout                            ;
+; data4[6]                                ; Lost fanout                            ;
+; data3[6]                                ; Lost fanout                            ;
+; data2[6]                                ; Lost fanout                            ;
+; data1[6]                                ; Lost fanout                            ;
+; data0[6]                                ; Lost fanout                            ;
+; avm_readdata[31]~reg0                   ; Stuck at GND due to stuck port clock   ;
+; reg_32_0[31]                            ; Lost fanout                            ;
+; local_data[7]                           ; Lost fanout                            ;
+; data6[7]                                ; Lost fanout                            ;
+; data5[7]                                ; Lost fanout                            ;
+; data4[7]                                ; Lost fanout                            ;
+; data3[7]                                ; Lost fanout                            ;
+; data2[7]                                ; Lost fanout                            ;
+; data1[7]                                ; Lost fanout                            ;
+; data0[7]                                ; Lost fanout                            ;
+; avm_waitrequest~reg0                    ; Stuck at VCC due to stuck port data_in ;
+; Total Number of Removed Registers = 136 ;                                        ;
++-----------------------------------------+----------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                         ;
++-----------------------+-------------------------+---------------------------------------------------+
+; Register name         ; Reason for Removal      ; Registers Removed due to This Register            ;
++-----------------------+-------------------------+---------------------------------------------------+
+; avm_readdata[2]~reg0  ; Stuck at GND            ; reg_32_0[2], reg_32_1[2], local_data[2], data6[2] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[3]~reg0  ; Stuck at GND            ; reg_32_0[3], reg_32_1[3], local_data[3], data6[3] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[4]~reg0  ; Stuck at GND            ; reg_32_0[4], reg_32_1[4], local_data[4], data6[4] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[5]~reg0  ; Stuck at GND            ; reg_32_0[5], reg_32_1[5], local_data[5], data6[5] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[6]~reg0  ; Stuck at GND            ; reg_32_0[6], reg_32_1[6], local_data[6], data6[6] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[7]~reg0  ; Stuck at GND            ; reg_32_0[7], reg_32_1[7], local_data[7], data6[7] ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[0]~reg0  ; Stuck at GND            ; reg_32_0[0], reg_32_1[0]                          ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[1]~reg0  ; Stuck at GND            ; reg_32_0[1], reg_32_1[1]                          ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[8]~reg0  ; Stuck at GND            ; reg_32_0[8], reg_32_1[8]                          ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[9]~reg0  ; Stuck at GND            ; reg_32_0[9], reg_32_1[9]                          ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[10]~reg0 ; Stuck at GND            ; reg_32_0[10], reg_32_1[10]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[11]~reg0 ; Stuck at GND            ; reg_32_0[11], reg_32_1[11]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[12]~reg0 ; Stuck at GND            ; reg_32_0[12], reg_32_1[12]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[13]~reg0 ; Stuck at GND            ; reg_32_0[13], reg_32_1[13]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[14]~reg0 ; Stuck at GND            ; reg_32_0[14], reg_32_1[14]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[15]~reg0 ; Stuck at GND            ; reg_32_0[15], reg_32_1[15]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[18]~reg0 ; Stuck at GND            ; reg_32_0[18], reg_32_1[18]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[19]~reg0 ; Stuck at GND            ; reg_32_0[19], reg_32_1[19]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[20]~reg0 ; Stuck at GND            ; reg_32_0[20], reg_32_1[20]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[21]~reg0 ; Stuck at GND            ; reg_32_0[21], reg_32_1[21]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[22]~reg0 ; Stuck at GND            ; reg_32_0[22], reg_32_1[22]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[23]~reg0 ; Stuck at GND            ; reg_32_0[23], reg_32_1[23]                        ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[16]~reg0 ; Stuck at GND            ; reg_32_1[16]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[17]~reg0 ; Stuck at GND            ; reg_32_1[17]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[24]~reg0 ; Stuck at GND            ; reg_32_0[24]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[25]~reg0 ; Stuck at GND            ; reg_32_0[25]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[26]~reg0 ; Stuck at GND            ; reg_32_0[26]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[27]~reg0 ; Stuck at GND            ; reg_32_0[27]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[28]~reg0 ; Stuck at GND            ; reg_32_0[28]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[29]~reg0 ; Stuck at GND            ; reg_32_0[29]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[30]~reg0 ; Stuck at GND            ; reg_32_0[30]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
+; avm_readdata[31]~reg0 ; Stuck at GND            ; reg_32_0[31]                                      ;
+;                       ; due to stuck port clock ;                                                   ;
++-----------------------+-------------------------+---------------------------------------------------+
+
+
++------------------------------------------------------------+
+; General Register Statistics for Partition "root_partition" ;
++----------------------------------------------+-------------+
+; Statistic                                    ; Value       ;
++----------------------------------------------+-------------+
+; Total registers                              ; 138         ;
+; Number of registers using Synchronous Clear  ; 23          ;
+; Number of registers using Synchronous Load   ; 31          ;
+; Number of registers using Asynchronous Clear ; 0           ;
+; Number of registers using Asynchronous Load  ; 0           ;
+; Number of registers using Clock Enable       ; 63          ;
+; Number of registers using Preset             ; 0           ;
++----------------------------------------------+-------------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; useful_bytes[0]                        ; 3       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ; Restructuring Performed ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; avm_readdata[24]~reg0      ; Yes                     ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; avm_readdata[1]~reg0       ; Yes                     ;
+; 5:1                ; 20 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; local_address[0]           ; Yes                     ;
+; 6:1                ; 11 bits   ; 44 LEs        ; 0 LEs                ; 44 LEs                 ; Yes        ; useful_bytes[31]           ; Yes                     ;
+; 7:1                ; 13 bits   ; 52 LEs        ; 13 LEs               ; 39 LEs                 ; Yes        ; useful_bytes[10]           ; Yes                     ;
+; 7:1                ; 7 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; useful_bytes[6]            ; Yes                     ;
+; 15:1               ; 8 bits    ; 80 LEs        ; 40 LEs               ; 40 LEs                 ; Yes        ; local_data[2]              ; Yes                     ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; i1233                      ; Yes                     ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 8 LEs                ; 6 LEs                  ; No         ; i1232                      ; Yes                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+-------------------------+
+
+
++------------------------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Partition "root_partition" ;
++------------------------+-----------------------------------------+
+; Type                   ; Count                                   ;
++------------------------+-----------------------------------------+
+; boundary_port          ; 167                                     ;
+; twentynm_ff            ; 138                                     ;
+;     ENA                ; 19                                      ;
+;     ENA SCLR           ; 13                                      ;
+;     ENA SLD            ; 31                                      ;
+;     SCLR               ; 10                                      ;
+;     plain              ; 65                                      ;
+; twentynm_lcell_comb    ; 220                                     ;
+;     arith              ; 113                                     ;
+;         0 data inputs  ; 1                                       ;
+;         1 data inputs  ; 109                                     ;
+;         2 data inputs  ; 3                                       ;
+;     extend             ; 3                                       ;
+;         7 data inputs  ; 3                                       ;
+;     normal             ; 104                                     ;
+;         0 data inputs  ; 2                                       ;
+;         2 data inputs  ; 6                                       ;
+;         3 data inputs  ; 20                                      ;
+;         4 data inputs  ; 12                                      ;
+;         5 data inputs  ; 17                                      ;
+;         6 data inputs  ; 47                                      ;
+;                        ;                                         ;
+; Number of carry chains ; 5                                       ;
+; Max carry chain length ; 32                                      ;
+;                        ;                                         ;
+; Max LUT depth          ; 6.20                                    ;
+; Average LUT depth      ; 3.47                                    ;
++------------------------+-----------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Synthesis Resource Usage Summary for Partition "root_partition" ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 139               ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 220               ;
+;     -- 7 input functions                    ; 3                 ;
+;     -- 6 input functions                    ; 47                ;
+;     -- 5 input functions                    ; 17                ;
+;     -- 4 input functions                    ; 12                ;
+;     -- <=3 input functions                  ; 141               ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 138               ;
+;                                             ;                   ;
+; I/O pins                                    ; 167               ;
+;                                             ;                   ;
+; Total DSP Blocks                            ; 0                 ;
+;     -- [A] Total Fixed Point DSP Blocks     ; 0                 ;
+;     -- [B] Total Floating Point DSP Blocks  ; 0                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; clk_100           ;
+; Maximum fan-out                             ; 138               ;
+; Total fan-out                               ; 1189              ;
+; Average fan-out                             ; 2.26              ;
++---------------------------------------------+-------------------+
+
+
++--------------------+
+; Synthesis Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Synthesis
+    Info: Version 20.2.0 Build 50 06/11/2020 SC Pro Edition
+    Info: Processing started: Fri Oct 22 13:10:14 2021
+    Info: System process ID: 4392
+Info: Command: quartus_syn --read_settings_files=on --write_settings_files=off Data_Handler -c data_handler
+Info: qis_default_flow_script.tcl version: #1
+Info: Initializing Synthesis...
+Info: Project = "Data_Handler"
+Info: Revision = "data_handler"
+Info: Analyzing source files
+Info: Elaborating from top-level entity "data_handler"
+Info (19337): VHDL info at data_handler.vhd(25): executing entity "data_handler" with architecture "data_handler_behavioral" File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 25
+Warning (16788): Net "reg_32_1[31]" does not have a driver at data_handler.vhd(108) File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 108
+Info: Found 1 design entities
+Info: There are 1 partitions after elaboration.
+Info: Creating instance-specific data models and dissolving soft partitions
+Info (18299): Expanding entity and wildcard assignments.
+Info (18300): Expanded entity and wildcard assignments. Elapsed time: 00:00:00
+Info: found pre-synthesis snapshots for 1 partition(s)
+Info: Synthesizing partition "root_partition"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "avm_readdata[0]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[1]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[2]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[3]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[4]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[5]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[6]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[7]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[8]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[9]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[10]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[11]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[12]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[13]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[14]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[15]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[16]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[17]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[18]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[19]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[20]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[21]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[22]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[23]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[24]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[25]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[26]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[27]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[28]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[29]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[30]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_readdata[31]" is stuck at GND File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 72
+    Warning (13410): Pin "avm_waitrequest" is stuck at VCC File: C:/Users/Stagiaire/Desktop/project/Data Handler/Data Handler/Sources/data_handler.vhd Line: 423
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 102 registers lost all their fanouts during netlist optimizations.
+Info (21057): Implemented 454 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 133 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21061): Implemented 287 logic cells
+Info: Successfully synthesized partition
+Info: Saving post-synthesis snapshots for 1 partition(s)
+Info: Quartus Prime Synthesis was successful. 0 errors, 35 warnings
+    Info: Peak virtual memory: 574 megabytes
+    Info: Processing ended: Fri Oct 22 13:10:17 2021
+    Info: Elapsed time: 00:00:03
+    Info: System process ID: 4392
+
+

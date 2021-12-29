@@ -1,0 +1,21 @@
+# Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Utilisateur/Desktop/MASTER/Stage/Data Handler/simulation/modelsim/data_handler_run_msim_rtl_vhdl.do}
+vsim work.data_handler_tb
+# vsim work.data_handler_tb 
+# Start time: 11:54:04 on Oct 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_handler_tb(data_handler_tb_behav)
+# Loading work.data_handler(data_handler_behavioral)
+add wave -position insertpoint sim:/data_handler_tb/DUT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Utilisateur  Hostname: LAPTOP-CGU0ADOD  ProcessID: 7892
+#           Attempting to use alternate WLF file "./wlfts8e84a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts8e84a
+run -all
+# End time: 11:55:34 on Oct 20,2021, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 2
