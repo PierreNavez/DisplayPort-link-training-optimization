@@ -1,0 +1,23 @@
+
+State Machine - |manchester_decoder|stop_internal_state
+Name stop_internal_state.S4 stop_internal_state.S3 stop_internal_state.S2 stop_internal_state.S1 stop_internal_state.S0 
+stop_internal_state.S0 0 0 0 0 0 
+stop_internal_state.S1 0 0 0 1 1 
+stop_internal_state.S2 0 0 1 0 1 
+stop_internal_state.S3 0 1 0 0 1 
+stop_internal_state.S4 1 0 0 0 1 
+
+State Machine - |manchester_decoder|sync_internal_state
+Name sync_internal_state.S4 sync_internal_state.S3 sync_internal_state.S2 sync_internal_state.S1 sync_internal_state.S0 
+sync_internal_state.S0 0 0 0 0 0 
+sync_internal_state.S1 0 0 0 1 1 
+sync_internal_state.S2 0 0 1 0 1 
+sync_internal_state.S3 0 1 0 0 1 
+sync_internal_state.S4 1 0 0 0 1 
+
+State Machine - |manchester_decoder|current_state
+Name current_state.S_STOP current_state.S_MESSAGE current_state.S_START current_state.S_IDLE 
+current_state.S_IDLE 0 0 0 0 
+current_state.S_START 0 0 1 1 
+current_state.S_MESSAGE 0 1 0 1 
+current_state.S_STOP 1 0 0 1 

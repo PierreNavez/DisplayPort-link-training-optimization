@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 06 12:03:12 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : manchester_decoder
+Top-level Entity Name : manchester_decoder
+Family : Cyclone IV E
+Total logic elements : 289
+    Total combinational functions : 289
+    Dedicated logic registers : 152
+Total registers : 152
+Total pins : 101
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
