@@ -1,0 +1,1396 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+                              obj/default/src/dp_141.o (malloc)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o) (_free_r)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o) (_malloc_r)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                              obj/default/src/utils.o (printf)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                              obj/default/src/dp_141.o (puts)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o) (strlen)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o) (_impure_ptr)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o) (errno)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o) (__udivsi3)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o) (__mulsi3)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+                              obj/default/src/main.o (alt_ic_isr_register)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o (alt_load)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o (alt_main)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o) (__malloc_lock)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o) (sbrk)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o) (write)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o) (alt_avalon_i2c_init)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o) (alt_busy_sleep)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (close)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o) (alt_fd_list)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o) (alt_dev_llist_insert)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (_do_ctors)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (_do_dtors)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o) (alt_errno)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o) (alt_find_dev)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o) (open)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o) (alt_printf)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o) (alt_putchar)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o) (alt_release_fd)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o) (alt_find_file)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o) (alt_get_fd)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+                              C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o) (putchar)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o) (_putc_r)
+C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000020000 0x0000000000000020
+onchip_memory2_0 0x0000000000020020 0x0000000000018680
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+LOAD obj/default/src/dp_141.o
+LOAD obj/default/src/i2c.o
+LOAD obj/default/src/main.o
+LOAD obj/default/src/utils.o
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a
+LOAD C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a
+                0x0000000000020000                __alt_mem_onchip_memory2_0 = 0x20000
+
+.entry          0x0000000000020000       0x20
+ *(.entry)
+ .entry         0x0000000000020000       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+                0x0000000000020000                __reset
+
+.exceptions     0x0000000000020020      0x204
+                0x0000000000020020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0xc8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x00000000000201c4       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000201c4                alt_instruction_exception_entry
+                0x0000000000020224                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000020224     0x5544
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020224       0x3c C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+                0x0000000000020224                _start
+ .text          0x0000000000020260      0x744 obj/default/src/dp_141.o
+                0x0000000000020260                dp141_init
+                0x00000000000203d8                getkey
+                0x00000000000204f0                memory_init
+                0x0000000000020864                getval
+                0x00000000000208f0                dp141_reprogram
+ .text          0x00000000000209a4       0xec obj/default/src/i2c.o
+                0x00000000000209a4                set_i2c_master
+                0x0000000000020a04                i2c_init
+ .text          0x0000000000020a90      0x290 obj/default/src/main.o
+                0x0000000000020a90                main
+ .text          0x0000000000020d20      0x584 obj/default/src/utils.o
+                0x0000000000020d20                lt_opt_init
+                0x0000000000020db0                lt_opt_redriver_program
+                0x0000000000020f88                lt_opt_stat
+                0x000000000002117c                reg32_to_8
+ .text          0x00000000000212a4        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .text.malloc   0x00000000000212a4       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+                0x00000000000212a4                malloc
+ .text.free     0x00000000000212b4       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+                0x00000000000212b4                free
+ .text          0x00000000000212c4        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000000212c4      0x100 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+                0x00000000000212c4                _free_r
+ .text          0x00000000000213c4        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000000213c4      0x164 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+                0x00000000000213c4                _malloc_r
+ .text          0x0000000000021528        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000021528       0x3c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                0x0000000000021528                _printf_r
+ .text.printf   0x0000000000021564       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                0x0000000000021564                printf
+ .text          0x00000000000215ac        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x00000000000215ac       0x84 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                0x00000000000215ac                _puts_r
+ .text.puts     0x0000000000021630       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                0x0000000000021630                puts
+ .text          0x0000000000021640        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000021640       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+                0x0000000000021640                _sbrk_r
+ .text          0x0000000000021688        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000021688       0x1c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000021688                strlen
+ .text          0x00000000000216a4        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .text.print_repeat
+                0x00000000000216a4       0x6c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x0000000000021710      0x528 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000021710                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x0000000000021c38       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000021c38                __vfprintf_internal
+ .text          0x0000000000021c50        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x0000000000021c50       0xa8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x0000000000021c50                __sfvwrite_small_dev
+ .text          0x0000000000021cf8        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000021cf8        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000021cf8        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x0000000000021cf8       0x50 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                0x0000000000021cf8                _write_r
+ .text          0x0000000000021d48      0x1b4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x0000000000021d48                __divsi3
+                0x0000000000021dc8                __modsi3
+                0x0000000000021e3c                __udivsi3
+                0x0000000000021ea0                __umodsi3
+ .text          0x0000000000021efc       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x0000000000021efc                __mulsi3
+ .text          0x0000000000021f24      0x1b0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+                0x0000000000021f24                alt_ic_isr_register
+                0x0000000000021f74                alt_ic_irq_enable
+                0x0000000000021ffc                alt_ic_irq_disable
+                0x0000000000022088                alt_ic_irq_enabled
+ .text          0x00000000000220d4       0xe8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000220d4                alt_iic_isr_register
+ .text          0x00000000000221bc        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00000000000221bc        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00000000000221bc        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00000000000221bc       0xec C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+                0x0000000000022224                alt_load
+ .text          0x00000000000222a8       0x7c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+                0x00000000000222a8                alt_main
+ .text          0x0000000000022324       0x48 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+                0x0000000000022324                __malloc_lock
+                0x0000000000022348                __malloc_unlock
+ .text          0x000000000002236c       0xb8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+                0x000000000002236c                sbrk
+ .text          0x0000000000022424      0x140 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+                0x0000000000022460                write
+ .text          0x0000000000022564       0x7c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000022564                alt_irq_init
+                0x00000000000225a0                alt_sys_init
+ .text          0x00000000000225e0     0x1c2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+                0x00000000000226f0                alt_avalon_i2c_register_optional_irq_handler
+                0x00000000000227e0                alt_avalon_i2c_register_callback
+                0x0000000000022834                alt_avalon_i2c_init
+                0x0000000000022920                alt_avalon_i2c_open
+                0x0000000000022960                alt_avalon_i2c_enable
+                0x00000000000229f8                alt_avalon_i2c_disable
+                0x0000000000022a44                alt_avalon_i2c_master_config_get
+                0x0000000000022af4                alt_avalon_i2c_master_config_set
+                0x0000000000022bc0                alt_avalon_i2c_master_config_speed_get
+                0x0000000000022c54                alt_avalon_i2c_master_config_speed_set
+                0x0000000000022d50                alt_avalon_i2c_is_busy
+                0x0000000000022d94                alt_avalon_i2c_rx_read_available
+                0x0000000000022e40                alt_avalon_i2c_rx_read
+                0x0000000000022ee8                alt_avalon_i2c_cmd_write
+                0x0000000000022fd4                alt_avalon_i2c_send_address
+                0x00000000000230c4                alt_avalon_i2c_master_target_get
+                0x00000000000230fc                alt_avalon_i2c_master_target_set
+                0x0000000000023130                alt_avalon_i2c_check_nack
+                0x000000000002317c                alt_avalon_i2c_check_arblost
+                0x00000000000231c8                alt_avalon_i2c_interrupt_transaction_status
+                0x0000000000023304                alt_avalon_i2c_master_tx
+                0x00000000000233ec                alt_avalon_i2c_master_rx
+                0x0000000000023528                alt_avalon_i2c_master_tx_rx
+                0x00000000000236f0                alt_avalon_i2c_master_transmit
+                0x00000000000238b0                alt_avalon_i2c_master_transmit_using_interrupts
+                0x0000000000023abc                alt_avalon_i2c_master_receive
+                0x0000000000023ccc                alt_avalon_i2c_master_receive_using_interrupts
+                0x0000000000023ebc                alt_avalon_i2c_int_status_get
+                0x0000000000023f14                alt_avalon_i2c_int_raw_status_get
+                0x0000000000023f58                alt_avalon_i2c_int_clear
+                0x0000000000023f94                alt_avalon_i2c_int_disable
+                0x0000000000024000                alt_avalon_i2c_int_enable
+                0x0000000000024068                alt_avalon_i2c_enabled_ints_get
+                0x00000000000240ac                alt_avalon_i2c_rx_fifo_threshold_get
+                0x00000000000240f8                alt_avalon_i2c_rx_fifo_threshold_set
+                0x000000000002415c                alt_avalon_i2c_tfr_cmd_fifo_threshold_get
+                0x00000000000241a8                alt_avalon_i2c_tfr_cmd_fifo_threshold_set
+ .text          0x000000000002420c       0xc0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000000000002420c                altera_avalon_jtag_uart_read_fd
+                0x000000000002426c                altera_avalon_jtag_uart_write_fd
+ .text          0x00000000000242cc       0xec C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00000000000242cc                altera_avalon_jtag_uart_read
+ .text          0x00000000000243b8       0x94 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000243b8                altera_avalon_jtag_uart_write
+ .text          0x000000000002444c      0x158 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+                0x000000000002444c                alt_busy_sleep
+ .text          0x00000000000245a4      0x118 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+                0x00000000000245e0                close
+ .text          0x00000000000246bc       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000246bc                alt_dcache_flush_all
+ .text          0x00000000000246dc       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+                0x0000000000024708                alt_dev_reg
+ .text          0x000000000002473c       0xe4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000024778                alt_dev_llist_insert
+ .text          0x0000000000024820       0x64 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+                0x0000000000024820                _do_ctors
+ .text          0x0000000000024884       0x64 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000024884                _do_dtors
+ .text          0x00000000000248e8        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000248e8        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000000000248e8      0x168 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+                0x00000000000248e8                alt_find_dev
+ .text          0x0000000000024a50       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000024a50                alt_icache_flush_all
+ .text          0x0000000000024a70       0x98 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000024a70                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000024b08      0x150 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000024bdc                alt_io_redirect
+ .text          0x0000000000024c58      0x278 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+                0x0000000000024d70                open
+ .text          0x0000000000024ed0      0x22c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+                0x0000000000024ed0                alt_printf
+ .text          0x00000000000250fc       0x30 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+                0x00000000000250fc                alt_putchar
+ .text          0x000000000002512c       0x70 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+                0x000000000002512c                alt_release_fd
+ .text          0x000000000002519c       0x24 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000002519c                altera_nios2_gen2_irq_init
+ .text          0x00000000000251c0      0x184 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+                0x00000000000251c0                alt_find_file
+ .text          0x0000000000025344       0xb8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000025344                alt_get_fd
+ .text          0x00000000000253fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .text.atexit   0x00000000000253fc       0x14 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+                0x00000000000253fc                atexit
+ .text          0x0000000000025410        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .text.exit     0x0000000000025410       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                0x0000000000025410                exit
+ .text          0x0000000000025430        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .text._putchar_r
+                0x0000000000025430        0x8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+                0x0000000000025430                _putchar_r
+ .text.putchar  0x0000000000025438       0x1c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+                0x0000000000025438                putchar
+ .text          0x0000000000025454        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000025454      0x11c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+                0x0000000000025454                __register_exitproc
+ .text          0x0000000000025570        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000025570      0x11c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x0000000000025570                __call_exitprocs
+ .text          0x000000000002568c        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .text.putc     0x000000000002568c       0x50 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+                0x000000000002568c                putc
+ .text._putc_r  0x00000000000256dc       0x54 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+                0x00000000000256dc                _putc_r
+ .text          0x0000000000025730       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+                0x0000000000025730                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000025768                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000025768                PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x0000000000025768                PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                0x0000000000025768                PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                0x0000000000025768                PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000025768                . = ALIGN (0x4)
+
+.rodata         0x0000000000025768      0x294
+                0x0000000000025768                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000025768                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000025768       0x3d obj/default/src/dp_141.o
+ *fill*         0x00000000000257a5        0x3 
+ .rodata        0x00000000000257a8       0x2a obj/default/src/i2c.o
+ *fill*         0x00000000000257d2        0x2 
+ .rodata        0x00000000000257d4      0x1c4 obj/default/src/utils.o
+ .rodata._puts_r.str1.4
+                0x0000000000025998        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+ .rodata        0x000000000002599c       0x11 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ *fill*         0x00000000000259ad        0x3 
+ .rodata        0x00000000000259b0       0x1d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x00000000000259cd        0x3 
+ .rodata        0x00000000000259d0       0x1d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ *fill*         0x00000000000259ed        0x3 
+ .rodata        0x00000000000259f0        0xa C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x00000000000259fc                . = ALIGN (0x4)
+ *fill*         0x00000000000259fa        0x2 
+                0x00000000000259fc                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000025768                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x00000000000259fc      0x324 load address 0x0000000000025d20
+                0x00000000000259fc                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x00000000000259fc                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000259fc        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .data          0x00000000000259fc        0x0 obj/default/src/dp_141.o
+ .data          0x00000000000259fc        0x0 obj/default/src/i2c.o
+ .data          0x00000000000259fc        0x0 obj/default/src/main.o
+ .data          0x00000000000259fc        0x0 obj/default/src/utils.o
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x00000000000259fc        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000000259fc       0xe4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000025ae0        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000025ae0        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000025ae0        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000025ae0        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .data          0x0000000000025ae0        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .data          0x0000000000025ae0       0x64 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .data          0x0000000000025b44        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000025b44      0x1a8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+                0x0000000000025b44                alt_dev_null
+                0x0000000000025b6c                alt_fd_list
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000025cec        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .data          0x0000000000025cec        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+                0x000000000002dcec                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000025cec        0x1 obj/default/src/main.o
+ *fill*         0x0000000000025ced        0x3 
+ .sdata._global_impure_ptr
+                0x0000000000025cf0        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000025cf0                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000025cf4        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000025cf4                _impure_ptr
+ .sdata         0x0000000000025cf8        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000025cf8                alt_priority_mask
+ .sdata         0x0000000000025cfc        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .sdata         0x0000000000025d00        0x8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+                0x0000000000025d00                alt_avalon_i2c_list
+ .sdata         0x0000000000025d08       0x14 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+                0x0000000000025d08                alt_fs_list
+                0x0000000000025d10                alt_dev_list
+                0x0000000000025d18                alt_max_fd
+ .sdata         0x0000000000025d1c        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+                0x0000000000025d1c                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000025d20                . = ALIGN (0x4)
+                0x0000000000025d20                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000025d20                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000025d20                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000026044      0x12c
+                0x0000000000026044                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000026044        0xb obj/default/src/main.o
+                0x0000000000026044                edge_capture_0
+                0x0000000000026048                edge_capture_1
+ *fill*         0x000000000002604f        0x1 
+ .sbss.__malloc_sbrk_start
+                0x0000000000026050        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+                0x0000000000026050                __malloc_sbrk_start
+ .sbss.__malloc_free_list
+                0x0000000000026054        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+                0x0000000000026054                __malloc_free_list
+ .sbss          0x0000000000026058        0x4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000026058                errno
+ .sbss          0x000000000002605c        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x000000000002605c                alt_irq_active
+ .sbss          0x0000000000026060        0xc C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+                0x0000000000026060                alt_argc
+                0x0000000000026064                alt_argv
+                0x0000000000026068                alt_envp
+ .sbss          0x000000000002606c        0x4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000002606c                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .bss           0x0000000000026070        0x0 obj/default/src/dp_141.o
+ .bss           0x0000000000026070        0x0 obj/default/src/i2c.o
+ .bss           0x0000000000026070        0x0 obj/default/src/main.o
+ .bss           0x0000000000026070        0x0 obj/default/src/utils.o
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000026070        0x0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .bss           0x0000000000026070        0x0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000026070      0x100 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000026070                alt_irq
+                0x0000000000026170                . = ALIGN (0x4)
+                0x0000000000026170                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000000000026170        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000000026170                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x0000000000026170                _end = ABSOLUTE (.)
+                0x0000000000026170                end = ABSOLUTE (.)
+                0x0000000000026170                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b obj/default/src/dp_141.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c obj/default/src/i2c.o
+ .comment       0x000000000000002b       0x2c obj/default/src/main.o
+ .comment       0x000000000000002b       0x2c obj/default/src/utils.o
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x000000000000002b       0x2c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .comment       0x000000000000002b       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x7f0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/src/dp_141.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj/default/src/i2c.o
+ .debug_aranges
+                0x0000000000000068       0x20 obj/default/src/main.o
+ .debug_aranges
+                0x0000000000000088       0x20 obj/default/src/utils.o
+ .debug_aranges
+                0x00000000000000a8       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_aranges
+                0x00000000000000d0       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_aranges
+                0x00000000000000f0       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_aranges
+                0x0000000000000110       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x0000000000000138       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000001a0       0x30 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x00000000000001f0       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000208       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000220       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000240       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000260       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x0000000000000280       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000002c0       0x30 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000002f0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000310       0x18 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000328       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000348       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000368       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_aranges
+                0x0000000000000388       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_aranges
+                0x00000000000003a8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000003e8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_aranges
+                0x0000000000000408       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000428       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000448       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000468       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x0000000000000488       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000004c8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000000000004e8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000508       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000528       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000548       0x18 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000560       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000598       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000005d8       0x28 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000600       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000620       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000640       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .debug_aranges
+                0x0000000000000660       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .debug_aranges
+                0x0000000000000680       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000006a0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000006c0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000006e0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000700       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000720       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000740       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_aranges
+                0x0000000000000768       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000788       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000007a8       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .debug_aranges
+                0x00000000000007d0       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x21866
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0xdfc obj/default/src/dp_141.o
+ .debug_info    0x0000000000000e1e      0xbc9 obj/default/src/i2c.o
+ .debug_info    0x00000000000019e7      0xe1f obj/default/src/main.o
+ .debug_info    0x0000000000002806      0xd65 obj/default/src/utils.o
+ .debug_info    0x000000000000356b      0x6aa c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_info    0x0000000000003c15      0x848 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_info    0x000000000000445d      0x946 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_info    0x0000000000004da3      0x92f c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_info    0x00000000000056d2      0x8ee c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000005fc0      0x6ee c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_info    0x00000000000066ae      0x649 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000006cf7     0x1412 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x0000000000008109      0x8c4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x00000000000089cd      0x6e8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x00000000000090b5      0x614 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000096c9      0x720 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000009de9      0x368 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x000000000000a151       0xcb c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x000000000000a21c      0xbee C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000000000000ae0a      0xab2 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000b8bc       0x22 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000b8de      0xa37 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x000000000000c315       0x8b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000000000000c3a0      0x9f0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000cd90      0xe5f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000dbef      0x957 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_info    0x000000000000e546      0xa66 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_info    0x000000000000efac      0xea1 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .debug_info    0x000000000000fe4d      0xd57 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000010ba4     0x1a95 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_info    0x0000000000012639      0x3c7 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000012a00      0xabe C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00000000000134be      0xa9a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000013f58      0x96d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x00000000000148c5      0xc49 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000001550e      0x92f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000015e3d      0xed8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000016d15      0xa69 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000000000001777e       0x88 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000017806       0x88 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x000000000001788e      0x96d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00000000000181fb       0x22 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x000000000001821d      0xbaa C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000018dc7      0x92f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00000000000196f6      0x1fd C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x00000000000198f3      0xe5e C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000000000001a751      0xc88 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .debug_info    0x000000000001b3d9      0x125 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .debug_info    0x000000000001b4fe      0x935 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .debug_info    0x000000000001be33      0x2d7 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000000000001c10a      0x950 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000000000001ca5a      0xb9b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x000000000001d5f5      0xbd3 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x000000000001e1c8      0x689 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_info    0x000000000001e851      0x6c4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_info    0x000000000001ef15      0x8a9 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_info    0x000000000001f7be      0x711 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_info    0x000000000001fecf      0x6f9 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00000000000205c8      0x8f9 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .debug_info    0x0000000000020ec1      0x9a5 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x7571
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x311 obj/default/src/dp_141.o
+ .debug_abbrev  0x0000000000000323      0x26b obj/default/src/i2c.o
+ .debug_abbrev  0x000000000000058e      0x299 obj/default/src/main.o
+ .debug_abbrev  0x0000000000000827      0x26e obj/default/src/utils.o
+ .debug_abbrev  0x0000000000000a95      0x1f2 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_abbrev  0x0000000000000c87      0x276 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_abbrev  0x0000000000000efd      0x2d8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_abbrev  0x00000000000011d5      0x24e c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000001423      0x243 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000001666      0x212 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000001878      0x1a8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000001a20      0x34f c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x0000000000001d6f      0x238 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000001fa7      0x18d c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000002134      0x186 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000000000022ba      0x1ec c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x00000000000024a6      0x103 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000000000025a9       0x7d c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x0000000000002626      0x2e8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x000000000000290e      0x2a7 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000002bb5       0x12 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000002bc7      0x26b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000002e32       0x44 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000002e76      0x21c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000003092      0x21e C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000032b0      0x1fa C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_abbrev  0x00000000000034aa      0x285 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_abbrev  0x000000000000372f      0x255 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000003984      0x26f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000003bf3      0x441 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_abbrev  0x0000000000004034      0x125 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000004159      0x23b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000004394      0x234 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000000000045c8      0x202 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x00000000000047ca      0x23f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000004a09      0x1e0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000004be9      0x230 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000004e19      0x268 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000005081       0x81 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000005102       0x81 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000005183      0x1df C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000005362       0x12 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000005374      0x21a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x000000000000558e      0x1e0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x000000000000576e       0xea C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000005858      0x232 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000005a8a      0x26c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000000000005cf6       0xba C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .debug_abbrev  0x0000000000005db0      0x1e0 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .debug_abbrev  0x0000000000005f90       0xea C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000000000000607a      0x1e5 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000625f      0x21a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000006479      0x22d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00000000000066a6      0x1f4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_abbrev  0x000000000000689a      0x1e1 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000006a7b      0x22d c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_abbrev  0x0000000000006ca8      0x238 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000006ee0      0x21d c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000070fd      0x227 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .debug_abbrev  0x0000000000007324      0x24d C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x8351
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x51a obj/default/src/dp_141.o
+ .debug_line    0x0000000000000580      0x248 obj/default/src/i2c.o
+ .debug_line    0x00000000000007c8      0x2d2 obj/default/src/main.o
+ .debug_line    0x0000000000000a9a      0x34c obj/default/src/utils.o
+ .debug_line    0x0000000000000de6      0x212 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_line    0x0000000000000ff8      0x336 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_line    0x000000000000132e      0x378 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_line    0x00000000000016a6      0x261 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_line    0x0000000000001907      0x261 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x0000000000001b68      0x220 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000001d88      0x1f7 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001f7f      0x7ba c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000002739      0x272 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x00000000000029ab      0x15a c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000002b05      0x1cb c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000002cd0      0x222 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000002ef2      0x2f9 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000000000031eb       0xb6 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00000000000032a1      0x201 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000034a2      0x1da C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000000000000367c       0x6b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00000000000036e7      0x1b2 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000003899       0x50 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000000000038e9      0x1cf C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000003ab8      0x2b8 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000003d70      0x122 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_line    0x0000000000003e92      0x1ad C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_line    0x000000000000403f      0x31f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .debug_line    0x000000000000435e      0x20b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000004569      0xa13 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_line    0x0000000000004f7c      0x120 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x000000000000509c      0x255 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000052f1      0x233 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000005524      0x1b4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x00000000000056d8      0x23c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000005914      0x17c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000005a90      0x29f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000005d2f      0x1e4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000005f13       0x66 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000005f79       0x66 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000005fdf      0x12f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x000000000000610e       0xb3 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000000000061c1      0x1fc C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000063bd      0x17a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000006537       0xd3 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x000000000000660a      0x2a9 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000068b3      0x27f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000006b32      0x150 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .debug_line    0x0000000000006c82      0x123 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .debug_line    0x0000000000006da5       0xb6 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000006e5b      0x135 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000006f90      0x1ff C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x000000000000718f      0x1d9 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000007368      0x1f4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_line    0x000000000000755c      0x209 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_line    0x0000000000007765      0x23a c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_line    0x000000000000799f      0x2e8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000007c87      0x2ec c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000007f73      0x27b c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .debug_line    0x00000000000081ee      0x163 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000     0x155c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xd0 obj/default/src/dp_141.o
+ .debug_frame   0x00000000000000d0       0x5c obj/default/src/i2c.o
+ .debug_frame   0x000000000000012c       0x9c obj/default/src/main.o
+ .debug_frame   0x00000000000001c8       0xac obj/default/src/utils.o
+ .debug_frame   0x0000000000000274       0x30 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000002a4       0x38 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000002dc       0x3c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000318       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000360       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x00000000000003a8       0x30 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000003d8       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000000003f8       0x90 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000488       0x3c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x00000000000004c4       0x30 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x00000000000004f4       0x50 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000000544       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000000564       0xa4 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000608       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000640       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000678       0x5c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000006d4       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000700       0x58 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_frame   0x0000000000000758       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_frame   0x000000000000078c       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x00000000000007ec       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000084c      0x5dc C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_frame   0x0000000000000e28       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000e88       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000ebc       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000ef0       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x0000000000000f28       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000f88       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000fbc       0x5c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000001018       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000001078       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000010b0       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000000000010e8       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x000000000000111c       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000001150       0x5c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x00000000000011ac       0x60 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x000000000000120c       0x84 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000001290       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+ .debug_frame   0x00000000000012c8       0x38 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+ .debug_frame   0x0000000000001300       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000001334       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000001368       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x000000000000139c       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000000000013d0       0x20 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000013f0       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001418       0x30 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_frame   0x0000000000001448       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000001490       0x50 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000000014e0       0x50 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+ .debug_frame   0x0000000000001530       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x32f9
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x55 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000055      0x6c9 obj/default/src/dp_141.o
+                                        0x7d3 (size before relaxing)
+ .debug_str     0x000000000000071e      0x103 obj/default/src/i2c.o
+                                        0x7e3 (size before relaxing)
+ .debug_str     0x0000000000000821      0x132 obj/default/src/main.o
+                                        0x935 (size before relaxing)
+ .debug_str     0x0000000000000953       0x74 obj/default/src/utils.o
+                                        0x80e (size before relaxing)
+ .debug_str     0x00000000000009c7      0x1a1 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+                                        0x4f7 (size before relaxing)
+ .debug_str     0x0000000000000b68      0x12b c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+                                        0x5f6 (size before relaxing)
+ .debug_str     0x0000000000000c93       0x32 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+                                        0x60d (size before relaxing)
+ .debug_str     0x0000000000000cc5      0x248 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+                                        0x65a (size before relaxing)
+ .debug_str     0x0000000000000f0d       0x65 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+                                        0x623 (size before relaxing)
+ .debug_str     0x0000000000000f72       0xe5 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000001057       0xd4 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x4d0 (size before relaxing)
+ .debug_str     0x000000000000112b      0x447 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+                                        0xb4d (size before relaxing)
+ .debug_str     0x0000000000001572       0x65 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x636 (size before relaxing)
+ .debug_str     0x00000000000015d7       0x89 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                                        0x527 (size before relaxing)
+ .debug_str     0x0000000000001660       0x41 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                                        0x4cd (size before relaxing)
+ .debug_str     0x00000000000016a1       0x47 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+                                        0x50c (size before relaxing)
+ .debug_str     0x00000000000016e8      0x192 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x000000000000187a       0x42 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x19e (size before relaxing)
+ .debug_str     0x00000000000018bc       0xe2 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic.o)
+                                        0x61f (size before relaxing)
+ .debug_str     0x000000000000199e       0x4c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x5db (size before relaxing)
+ .debug_str     0x00000000000019ea       0x18 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+                                         0x5e (size before relaxing)
+ .debug_str     0x0000000000001a02       0x3a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+                                        0x58a (size before relaxing)
+ .debug_str     0x0000000000001a3c       0x29 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_vars.o)
+                                        0x140 (size before relaxing)
+ .debug_str     0x0000000000001a65       0xe9 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_load.o)
+                                        0x5f8 (size before relaxing)
+ .debug_str     0x0000000000001b4e      0x1d9 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_main.o)
+                                        0x7b5 (size before relaxing)
+ .debug_str     0x0000000000001d27       0x1a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_malloc_lock.o)
+                                        0x535 (size before relaxing)
+ .debug_str     0x0000000000001d41       0x61 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sbrk.o)
+                                        0x5c7 (size before relaxing)
+ .debug_str     0x0000000000001da2       0x31 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_write.o)
+                                        0x7a3 (size before relaxing)
+ .debug_str     0x0000000000001dd3      0x103 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_sys_init.o)
+                                        0x7fd (size before relaxing)
+ .debug_str     0x0000000000001ed6      0x836 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_i2c.o)
+                                       0x1097 (size before relaxing)
+ .debug_str     0x000000000000270c       0x6a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x2de (size before relaxing)
+ .debug_str     0x0000000000002776       0x48 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x638 (size before relaxing)
+ .debug_str     0x00000000000027be       0x4a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x62e (size before relaxing)
+ .debug_str     0x0000000000002808       0x42 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x547 (size before relaxing)
+ .debug_str     0x000000000000284a       0x1b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_close.o)
+                                        0x642 (size before relaxing)
+ .debug_str     0x0000000000002865       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x53b (size before relaxing)
+ .debug_str     0x0000000000002899       0x3e C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev.o)
+                                        0x7ac (size before relaxing)
+ .debug_str     0x00000000000028d7       0x45 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x5bf (size before relaxing)
+ .debug_str     0x000000000000291c       0x48 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_ctors.o)
+                                         0xd6 (size before relaxing)
+ .debug_str     0x0000000000002964       0x4c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_do_dtors.o)
+                                         0xd5 (size before relaxing)
+ .debug_str     0x00000000000029b0       0x14 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_errno.o)
+                                        0x538 (size before relaxing)
+ .debug_str     0x00000000000029c4       0x1e C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+                                         0x64 (size before relaxing)
+ .debug_str     0x00000000000029e2       0x36 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_dev.o)
+                                        0x5f6 (size before relaxing)
+ .debug_str     0x0000000000002a18       0x34 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x53b (size before relaxing)
+ .debug_str     0x0000000000002a4c      0x4d7 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5f2 (size before relaxing)
+ .debug_str     0x0000000000002f23       0x56 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_io_redirect.o)
+                                        0x7aa (size before relaxing)
+ .debug_str     0x0000000000002f79       0x2f C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_open.o)
+                                        0x643 (size before relaxing)
+ .debug_str     0x0000000000002fa8       0x2c C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_printf.o)
+                                        0x100 (size before relaxing)
+ .debug_str     0x0000000000002fd4       0x22 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_putchar.o)
+                                        0x51f (size before relaxing)
+ .debug_str     0x0000000000002ff6       0x28 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_release_fd.o)
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x000000000000301e       0x3b C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x54f (size before relaxing)
+ .debug_str     0x0000000000003059       0x26 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_find_file.o)
+                                        0x5f8 (size before relaxing)
+ .debug_str     0x000000000000307f       0x30 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_get_fd.o)
+                                        0x614 (size before relaxing)
+ .debug_str     0x00000000000030af       0x83 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+                                        0x511 (size before relaxing)
+ .debug_str     0x0000000000003132       0x4e c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                                        0x512 (size before relaxing)
+ .debug_str     0x0000000000003180       0x52 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+                                        0x617 (size before relaxing)
+ .debug_str     0x00000000000031d2       0x69 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+                                        0x557 (size before relaxing)
+ .debug_str     0x000000000000323b       0x4c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                                        0x50f (size before relaxing)
+ .debug_str     0x0000000000003287       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+                                        0x621 (size before relaxing)
+ .debug_str     0x00000000000032cf       0x2a C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exit.o)
+                                        0x544 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1f3c
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x64 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_loc     0x0000000000000064      0x145 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_loc     0x00000000000001a9      0x291 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_loc     0x000000000000043a      0x10a c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x0000000000000544       0xab c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x00000000000005ef       0x6c c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_loc     0x000000000000065b       0x44 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x000000000000069f      0xb67 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x0000000000001206      0x123 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x0000000000001329       0xd0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x00000000000013f9      0x5d0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x00000000000019c9       0xa7 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x0000000000001a70       0x32 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000001aa2       0x22 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000001ac4       0x91 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_loc     0x0000000000001b55      0x193 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000001ce8      0x174 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000001e5c       0xe0 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000010       0x30 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_busy_sleep.o)
+                0x00000000000386a0                __alt_data_end = 0x386a0
+                0x00000000000386a0                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                0x0000000000026170                PROVIDE (__alt_heap_start = end)
+                0x00000000000386a0                PROVIDE (__alt_heap_limit = 0x386a0)
+OUTPUT(lt_optimization.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x390
+ .debug_ranges  0x0000000000000000       0x20 C:/users/stagiaire/Desktop/project/lt_optimization/bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-malloc.o)
+ .debug_ranges  0x0000000000000038       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-freer.o)
+ .debug_ranges  0x0000000000000060       0x48 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-nano-mallocr.o)
+ .debug_ranges  0x00000000000000a8       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-printf.o)
+ .debug_ranges  0x00000000000000c0       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x00000000000000d8       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-sbrkr.o)
+ .debug_ranges  0x00000000000000e8       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x00000000000000f8       0xe8 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x00000000000001e0       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x00000000000001f0       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000200       0x70 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000270       0x28 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000298       0x10 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000002a8       0x18 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x00000000000002c0       0x30 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000002f0       0x18 C:/users/stagiaire/Desktop/project/lt_optimization/bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000308       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000318       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000328       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putchar.o)
+ .debug_ranges  0x0000000000000340       0x10 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000350       0x28 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000378       0x18 c:/intelfpga_pro/20.2/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-putc.o)
